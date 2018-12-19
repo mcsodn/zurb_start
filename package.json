@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mcsodn/zurb_start/issues"
   },
-  "homepage": "https://github.com/mcsodn/zurb_start#readme"
+  "homepage": "https://github.com/mcsodn/zurb_start#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-load-plugins": "^1.5.0"
+  }
 }
