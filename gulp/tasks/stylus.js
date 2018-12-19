@@ -5,7 +5,6 @@ module.exports = function () {
 		.pipe($.gp.stylus({
 			'include css':true
 		}))
-
 		.on("error", $.gp.notify.onError({	        
 	        title: "style"
       	}))		

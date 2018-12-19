@@ -18,6 +18,7 @@
   "homepage": "https://github.com/mcsodn/zurb_start#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
     "gulp-inline-css": "^3.3.1",
     "gulp-inline-source": "^4.0.0",
     "gulp-load-plugins": "^1.5.0",
