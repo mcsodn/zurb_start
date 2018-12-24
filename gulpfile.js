@@ -14,7 +14,9 @@ $.path.tasks.forEach(function (taskPath) {
     require(taskPath)();
 });
 
-$.gulp.task('default', $.gulp.series(
-    $.gulp.parallel('stylus','inky'),
-    $.gulp.parallel('watch','serve')
+$.gulp.task('default', 
+	$.gulp.series(
+		'stylus',
+		'emailBuilder',	    
+	    $.gulp.parallel('watch','serve')
 ));

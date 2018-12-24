@@ -1,6 +1,6 @@
 module.exports = [
-    './gulp/tasks/serve',
-    './gulp/tasks/watch',
     './gulp/tasks/stylus',
-    './gulp/tasks/inky'
+    './gulp/tasks/emailBuilder',
+    './gulp/tasks/serve',
+    './gulp/tasks/watch'
 ];
